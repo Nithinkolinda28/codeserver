@@ -1,5 +1,5 @@
 # Use Ubuntu 22.04 as the base image
-FROM ubuntu:22.04
+FROM kalilinux/kali-rolling:latest
 
 # Install necessary packages
 RUN apt-get update && \
